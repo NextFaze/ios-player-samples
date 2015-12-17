@@ -14,6 +14,7 @@
 		4907B1DF19D9DACF002EA892 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4907B1DD19D9DACF002EA892 /* Main.storyboard */; };
 		4907B1E119D9DACF002EA892 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4907B1E019D9DACF002EA892 /* Images.xcassets */; };
 		4907B1E419D9DACF002EA892 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4907B1E219D9DACF002EA892 /* LaunchScreen.xib */; };
+		7CD5BDAE1C224425008D6948 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CD5BDAD1C224425008D6948 /* MainViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,8 @@
 		4907B1EE19D9DACF002EA892 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4907B1EF19D9DACF002EA892 /* VideoCloudBasicPlayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoCloudBasicPlayerTests.m; sourceTree = "<group>"; };
 		4D8DFF7AB393BD837EAC1D3C /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		7CD5BDAC1C224425008D6948 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		7CD5BDAD1C224425008D6948 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		7EE589D3A0D7A286CFFC9D3B /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -85,6 +88,8 @@
 				4907B1E019D9DACF002EA892 /* Images.xcassets */,
 				4907B1E219D9DACF002EA892 /* LaunchScreen.xib */,
 				4907B1D319D9DACF002EA892 /* Supporting Files */,
+				7CD5BDAC1C224425008D6948 /* MainViewController.h */,
+				7CD5BDAD1C224425008D6948 /* MainViewController.m */,
 			);
 			path = VideoCloudBasicPlayer;
 			sourceTree = "<group>";
@@ -252,6 +257,7 @@
 				4907B1D919D9DACF002EA892 /* AppDelegate.m in Sources */,
 				4907B1DC19D9DACF002EA892 /* ViewController.m in Sources */,
 				4907B1D619D9DACF002EA892 /* main.m in Sources */,
+				7CD5BDAE1C224425008D6948 /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

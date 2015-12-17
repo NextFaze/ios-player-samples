@@ -43,8 +43,8 @@ static NSString * const kViewControllerPlaylistID = @"3637400917001";
 
     _playbackController = [manager createPlaybackControllerWithViewStrategy:[manager defaultControlsViewStrategy]];
     _playbackController.delegate = self;
-    _playbackController.autoAdvance = YES;
-    _playbackController.autoPlay = YES;
+    _playbackController.autoAdvance = NO;
+    _playbackController.autoPlay = NO;
 
     _catalogService = [[BCOVCatalogService alloc] initWithToken:kViewControllerCatalogToken];
 }
